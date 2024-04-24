@@ -1,0 +1,324 @@
+/* ___________INICIO TODO LO DEL BODY MAIN________*/
+
+body{
+    background-color:rgb(38, 36, 36);
+   
+}
+
+.botonesIndex{
+    width: 400px;
+    margin-top: 2px;
+    margin-bottom: 10PX;
+    
+    background-color: rgb(48, 47, 47);
+    border-style: solid;
+    border-radius: 90px;
+    border-color: rgb(10, 10, 10);
+
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;        
+}
+
+.botonesIndex:hover{
+    width: 405px;
+    box-shadow: 0 0 2px 2px rgb(0, 0, 0);
+    transition: 0.3s;
+    background-color: rgb(36, 36, 36);
+}
+
+.textoA{
+    text-decoration: none;
+    color:  rgb(248, 217, 107);
+}
+
+.gridBotones{
+    display: grid;
+    justify-content:center ;
+}
+
+.imgHeader{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.alturamain{
+    margin-top: 5%;
+}
+
+.textobody{
+    
+    height: 200px;
+    color: rgb(248, 217, 107);
+    background-color:rgb(7, 7, 7) ;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+   
+    border-radius: 10px;
+    
+    margin: 10px 5px 0px 5px ;
+    overflow: hidden;
+
+    
+}
+
+.textobody:hover{
+    box-shadow: 0 0 11px 0px goldenrod;
+    padding: 1px;
+    transition: 0.3s;
+    height: 201px;
+}
+
+.contenerdor1{
+    margin-top: 5%;
+ display: flex;
+    
+}
+
+.contenedor-card1{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    
+}
+
+.contenedor-card1-image{
+    width: 80%;
+    height: 250px;
+}
+
+.contenedor-card1:hover{
+    box-shadow: 0 0 2px 2px whitesmoke;
+    transition: 0.5s;
+    background-color: rgb(106, 106, 106);
+    color: black;
+    
+}
+
+
+
+.contenedor-card1 div:hover{
+    transition: 0.5s;
+    background-color: rgb(106, 106, 106);
+    color: black;
+}
+
+/*PSEUDOCLASES USAN UN SOLO : */
+/*PSEUDOELEMENTOS USAN DOS :: */
+
+            /*SE CAMBIA DE COLOR AL ESTILO SELECCIONADO*/
+::selection{
+    background-color: gold;
+    color: black;
+}
+
+.contenedor-card1-image img{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+
+.contenedor-card1-parrafo{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: silver;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+/*css somosJP..............*/
+
+.cols{
+    display: grid;
+    /*grid-template-columns: 300px 300px 300px;*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+.col:hover{
+    border: 2px groove rgb(255, 255, 255);
+    box-shadow: 0 0 4px 4px gold;
+    transition: 0.3s;
+    
+}
+
+.col {
+    width: 300px;
+    border: 1px groove rgb(255, 255, 255);
+    background-color: black;
+    
+    
+}
+
+.col img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.txtcuerpo{
+    color: silver;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+/*--------carta--------*/
+
+.product-card{
+    width: 300px;
+    background-color: aliceblue;
+    transition: 0.5s;
+    overflow-x: hidden;
+    
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.5s;
+
+}
+
+.product-body{
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.product-card:hover{
+    box-shadow: 0 0 8px 8px gold;
+    background-color: rgb(5, 5, 5);
+    color: aliceblue;  
+}
+
+.product-card:hover img{
+    width: 330px;
+}
+
+/*____carrusel__*/
+.carousel-inner,
+.carousel-item {
+    width: 100%;
+    height:400px;
+    object-fit: cover;
+}
+
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* _________________FIN TODO LO DEL BODY MAIN______________________________*/
+
+/*_________________INICIO FOOTER_________________*/
+
+* li{
+    list-style-type: none;
+    
+    color:rgb(1, 1, 1);
+    text-decoration: none;
+  
+}
+
+.textoFooter{
+    
+    text-decoration: none;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.headerFooter{
+    margin-top: 60px;
+   padding: 0.5 px;
+   color: rgb(248, 217, 107);
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenerdorFlex2{
+    padding: 10px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+  
+    
+
+}
+
+.datoslegales{
+    
+    padding: 2px;
+    background: rgb(0, 0, 0);
+    margin-top: 2%;
+    font-size: 9px;
+    text-align: center;
+    color:white ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*******contact******/
+
+.cajaformulario{
+    overflow: hidden;
+    border:solid 1px whitesmoke;
+    padding: 10px;
+
+}
+
+.formulario-body{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: goldenrod;
+    gap: 10px;
+}
+
+.textarea{
+    width: 200px;
+    height: 100px;
+}
+
+.formulariohead{
+    padding: 5px;
+    text-align: center;
+    color: gold;
+    border:solid whitesmoke 1px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+.formulario-body-btn{
+    width: 200px;
+    background-color: brown;
+    color: goldenrod;
+    border-style: none;
+    border-radius: 10px;
+}
+
+
