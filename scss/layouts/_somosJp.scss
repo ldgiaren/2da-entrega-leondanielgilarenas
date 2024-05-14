@@ -1,0 +1,33 @@
+
+/*_____________________SOMOS JP________*/
+
+.cols{
+    @include contenedorgrid(repeat(auto-fit, minmax(300px, 1fr)), 20px);
+    padding: 20px;
+
+
+    .col {
+        width: 300px;
+        border: 1px groove rgb(255, 255, 255);
+        background-color: black;
+        
+        &:hover{
+            border: 2px groove rgb(255, 255, 255);
+            box-shadow: 0 0 4px 4px gold;
+            transition: 0.3s;
+        }
+
+        .txtcuerpo{
+            color: silver;
+            padding: 10px;
+            text-align: center;
+            font-family:$font-general;  
+        }
+        
+    }
+    .col img {
+        @include imagenes(100%, 200px);
+    }
+}
+
+

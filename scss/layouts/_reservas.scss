@@ -1,0 +1,40 @@
+.contenerdor1{
+    margin-top: 5%;
+    display: flex;
+
+    .contenedor-card1{
+        background-color: black;
+        @include contenedorflex(0, center, space-between, 10px);
+    
+        &:hover{
+        box-shadow: 0 0 2px 2px whitesmoke;
+        transition: 0.5s;
+        background-color: rgb(106, 106, 106);
+        color: black;
+        }
+    }
+
+    .contenedor-card1 div:hover{
+        transition: 0.5s;
+        background-color: rgb(106, 106, 106);
+        color: black;
+    }
+
+    .contenedor-card1-image{
+        @include imagenes (80%, 250px);
+        
+    }
+
+    .contenedor-card1-image img{
+        @include imagenes(100%, 100%,); 
+    } 
+
+
+    .contenedor-card1-parrafo{
+        text-align: center;
+        font-family:$font-general;
+        color: silver;
+        padding: 15px;
+    }
+
+}

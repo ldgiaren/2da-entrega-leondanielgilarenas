@@ -1,0 +1,47 @@
+
+
+.formulariohead{
+    padding: 5px;
+    text-align: center;
+    color:$color-font-general;
+    border:solid whitesmoke 1px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.cajaformulario{
+    overflow: hidden;
+    border:solid 1px whitesmoke;
+    padding: 10px;
+
+    .formulario-body{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        color:$color-font-general;
+        gap: 10px;
+    }
+
+    .formulario-body-btn{
+        width: 200px;
+        background-color: brown;
+        color:$color-font-general;
+        border-style: none;
+        border-radius: 10px;
+    }
+
+    .textarea{
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+
+ 

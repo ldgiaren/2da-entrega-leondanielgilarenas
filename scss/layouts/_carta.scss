@@ -1,0 +1,50 @@
+
+.product-card{
+    width: 300px;
+    background-color: aliceblue;
+    transition: 0.5s;
+    overflow-x: hidden;
+
+    &:hover{
+        box-shadow: 0 0 8px 8px gold;
+        background-color: rgb(5, 5, 5);
+        color: aliceblue;  
+    }
+
+    .product-body{
+        display: flex;
+        flex-direction: column; 
+        padding: 10px;
+        transition: 0.5s;
+    }
+
+    
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.5s;
+
+    .product-card:hover img{
+        width: 330px;
+    }
+    
+    
+}
+
+
+/*____carrusel__*/
+.carousel-inner,.carousel-item {
+    width: 100%;
+    height:400px;
+    object-fit: cover;
+}
+
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

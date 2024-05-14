@@ -1,0 +1,19 @@
+@mixin imagenes ($width, $height){
+    width: $width;
+    height: $height;
+    object-fit: cover;
+}
+
+@mixin contenedorflex ($direction, $aling, $justify, $gap){
+    display: flex;
+    flex-direction: $direction;
+    align-items: $aling;
+    justify-content: $justify;
+    gap: $gap;
+}
+
+@mixin contenedorgrid($grid-templatec,$gap ){
+    display: grid;
+    grid-template-columns:$grid-templatec;
+    gap: $gap;
+}

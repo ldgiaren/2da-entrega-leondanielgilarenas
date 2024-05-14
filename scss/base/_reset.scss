@@ -1,0 +1,26 @@
+/*reset 
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+} */
+body{
+    background-color:$bakc-body;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/*PSEUDOCLASES USAN UN SOLO : */
+/*PSEUDOELEMENTOS USAN DOS :: */
+/*SE CAMBIA DE COLOR AL ESTILO SELECCIONADO como cuando se seleciona un parrafo*/
+::selection{
+    background-color: gold;
+    color: black;
+}

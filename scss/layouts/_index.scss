@@ -1,0 +1,77 @@
+
+
+.botonesIndex{
+    width: 400px;
+    margin-top: 2px;
+    margin-bottom: 10PX;
+    
+    background-color: $backcolor-btn-main;
+    border-style: solid;
+    border-radius: 90px;
+    border-color: rgb(10, 10, 10);
+
+    font-size: 10px;
+    text-align: center;
+    font-family:$font-general;  
+    
+    &:hover{
+        width: 405px;
+        box-shadow: 0 0 2px 2px rgb(0, 0, 0);
+        transition: 0.3s;
+        background-color: rgb(36, 36, 36);
+    }
+}
+
+
+
+.textoA{
+    text-decoration: none;
+    color:$color-font-general;
+}
+
+
+
+
+.gridBotones{
+    display: grid;
+    justify-content:center ;
+}
+
+
+/*INDEX.HTML // SOMOSJP.HTML*/
+
+.imgHeader{
+    @include imagenes(100%, 170px);
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.alturamain{
+    margin-top: 5%;
+}
+
+.textobody{
+    
+    height: 200px;
+    color:$color-font-general;
+    background-color:rgb(7, 7, 7) ;
+    
+    font-family:$font-general;
+    text-align: center;
+   
+    border-radius: 10px;
+    
+    margin: 10px 5px 0px 5px ;
+    overflow: hidden;
+
+    &:hover{
+        box-shadow: 0 0 11px 0px goldenrod;
+        padding: 1px;
+        transition: 0.3s;
+        height: 201px;
+    }
+    
+}
+
+
+
