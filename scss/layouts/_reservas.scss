@@ -20,21 +20,38 @@
         color: black;
     }
 
-    .contenedor-card1-image{
-        @include imagenes (80%, 250px);
-        
+    
+
+    
+
+
+    
+
+}
+
+.contenedor-card1-image img{
+    @include imagenes(100%, 100%,); 
+} 
+
+.textobody{
+    
+    height: 200px;
+    color:$color-font-general;
+    background-color:rgb(7, 7, 7) ;
+    
+    font-family:$font-general;
+    text-align: center;
+   
+    border-radius: 10px;
+    
+    margin: 10px 5px 0px 5px ;
+    overflow: hidden;
+
+    &:hover{
+        box-shadow: 0 0 11px 0px goldenrod;
+        padding: 1px;
+        transition: 0.3s;
+        height: 201px;
     }
-
-    .contenedor-card1-image img{
-        @include imagenes(100%, 100%,); 
-    } 
-
-
-    .contenedor-card1-parrafo{
-        text-align: center;
-        font-family:$font-general;
-        color: silver;
-        padding: 15px;
-    }
-
+    
 }

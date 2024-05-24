@@ -17,3 +17,34 @@
     grid-template-columns:$grid-templatec;
     gap: $gap;
 }
+
+@media (max-width:540px ){
+    .contenerdorFlex2{
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width:539px){
+    .contenedor-card1-image {
+          width: 50%;
+          height: 100%;
+          object-fit: cover;
+      }
+  }
+
+@media(max-width:540px){
+.contenedor-card1-parrafo{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-family:$font-general;
+    color: silver;
+    padding: 15px;
+}
+
+}
+
