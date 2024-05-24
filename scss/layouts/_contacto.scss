@@ -1,15 +1,20 @@
 
 
 .formulariohead{
+    font-family:$font-general;
     padding: 5px;
     text-align: center;
     color:$color-font-general;
     border:solid whitesmoke 1px;
     margin-bottom: 2%;
     margin-top: 5%;
+    
+  
 }
 
 .cajaformulario{
+    font-weight: bold;
+    font-family:$font-general;
     overflow: hidden;
     border:solid 1px whitesmoke;
     padding: 10px;
@@ -37,10 +42,32 @@
 
 }
 
+.formcontenedor{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-family:$font-general;
+    color:$color-font-general;
+    border-color:$color-font-general ;
+    border-top: solid;
+    border-bottom: solid;
+}
 
+.formcontenedorflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 500px;
+    
+   
+   
+}
 
-
-
+.espaciocontenedor{
+    margin-top: 70px;
+    padding: 14px;
+}
 
 
 
